@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    width: 40vw;
+    height: 90vh;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: blue; /* Color when hovered */
+}
+#About{
+    width: 100%;
+    height: 25%;
+    padding: 5%;
+}
+#Article1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+#Article2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+#Article3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+h1{
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-align: center;
+    line-height: 150%;
+}
+h2{
+    text-align: center;
+    color: #D9D9D9;
+    margin-top: 2%;
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+h4{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4D5562;
+    margin-top: 0.5em;
+}
+#Card1{
+    width: 8vw;
+    height: 16vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://miro.medium.com/v2/resize:fit:720/format:webp/1*3x56gROpa0dueqOHLYGKqg.jpeg);
+    border-radius: 5%;
+}
+#Text1{
+    width: 30vw;
+    height: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Card2{
+    width: 8vw;
+    height: 16vh;
+    background-image: url(https://miro.medium.com/v2/resize:fit:720/format:webp/1*iOwWB3TqsztD0j15Ook2wQ.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+}
+#Text2{
+    width: 30vw;
+    height: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Card3{
+    width: 8vw;
+    height: 16vh;
+    background-image: url(https://miro.medium.com/v2/resize:fit:720/format:webp/1*CGM9wiTN-YDv5bEF2ZPLRg.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+}
+#Text3{
+    width: 30vw;
+    height: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
